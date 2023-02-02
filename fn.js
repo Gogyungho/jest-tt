@@ -19,6 +19,42 @@ const fn = {
       }, 3000);
     });
   },
+  connectUserDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res({
+          name: "Flynn",
+          age: 33,
+          gender: "male",
+        });
+      }, 500);
+    });
+  },
+  disconnectUserDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res();
+      }, 500);
+    });
+  },
+  connectCarDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res({
+          brand: "kia",
+          name: "k7",
+          color: "white",
+        });
+      }, 500);
+    });
+  },
+  disconnectCarDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res();
+      }, 500);
+    });
+  },
 };
 
 module.exports = fn;
