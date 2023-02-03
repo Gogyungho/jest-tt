@@ -55,6 +55,12 @@ const fn = {
       }, 500);
     });
   },
+  createUser: (name) => {
+    console.log("사용자가 생성됨");
+    return {
+      name,
+    };
+  },
 };
 
 module.exports = fn;
