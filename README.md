@@ -14,3 +14,23 @@
 - toMatch()
 - toContain()
 - toThrow()
+
+### 테스트 전/후 작업
+
+- beforeEach(), afterEach()
+- beforAll(), afterAll()
+
+### 그룹화
+
+- describe(), it()
+
+### 테스트 코드 디버깅
+
+- only(), skip()
+
+### mock function
+
+- jest.fn()
+  - mock.calls, mock.results
+  - mockReturnValue(), mockResolvedValue(), mockImplementation()
+- jest.mock()
